@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title> Portfolio | Carlo Di Bellonio - Web Developer a Napoli </title>
+    <meta name="description"
+        content="Esplora il mio portfolio: progetti di siti web responsive, e-commerce e strategie SEO su misura per migliorare visibilità e conversioni." />
+
+    <!-- Bootstrap Css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+
+    <!-- Css Personalizzato -->
+    <link rel="stylesheet" href="../css/style.css" />
+</head>
+
+<body class="text-bg-dark">
+    <header id="header" class="position-relative">
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg text-bg-dark navbar-dark z-3">
+            <div class="container">
+                <a class="navbar-brand shadow-none me-1" href="../index.html"></a>
+                <!-- <div class="logoName d-none d-lg-flex">
+                    <h2 class="dm-serif lh-1"><span>Carlo</span>DiBellonio</h2>
+                    <h2 class="bebas-neue lh-1">web developer & designer</h2>
+                </div> -->
+                <button class="navbar-toggler border-0 shadow-none" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasNavbar"
+                    aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                        <div class="offcanvas-title border-0 shadow-none" id="offcanvasNavbarLabel"></div>
+                        <button type="button" class="btn-close btn-close-white border-0 shadow-none"
+                            data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <li class="nav-item">
+                                <a class="nav-link" href="/#whoAmI" aria-label="Vai alla sezione chi sono">Chi sono</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/#services" aria-label="Vai alla sezione servizi">Servizi</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/#howIWork"
+                                    aria-label="Vai alla sezione dall'idea al sito perfetto">Realizzazione</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/#portfolio"
+                                    aria-label="Vai alla sezione portfolio">Portfolio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/#contacts"
+                                    aria-label="Vai alla sezione contatti">Contatti</a>
+                            </li>
+
+                            <!-- <li class="nav-item my-3 d-lg-none">
+                                <ul class="list-unstyled ps-0 list-group-horizontal list-group ">
+                                    <li class="py-1 pe-3">
+                                        <a rel="external noopener nofollow" href="#link" target="_blank"
+                                            aria-label="Link a pagina Facebook">
+                                            <i class="bi bi-facebook text-secondary"></i>
+                                        </a>
+                                    </li>
+                                    <li class="py-1 pe-3">
+                                        <a rel="external noopener nofollow" href="#link" target="_blank"
+                                            aria-label="Link a pagina Linkedin">
+                                            <i class="bi bi-linkedin text-secondary"></i>
+                                        </a>
+                                    </li>
+                                    <li class="py-1">
+                                        <a rel="external noopener nofollow" href="#link" target="_blank" aria-label="Link a pagina Twitter">
+                                            <i class="bi bi-twitter-x"></i>
+                                        </a>
+                                    </li>
+                                    <li class="py-1 pe-3">
+                                        <a rel="external noopener nofollow" href="#link" target="_blank"
+                                            aria-label="Link a pagina Instagram">
+                                            <i class="bi bi-instagram text-secondary"></i>
+                                        </a>
+                                    </li>
+                                    <li class="py-1">
+                                        <a rel="external noopener nofollow" href="#link" target="_blank"
+                                            aria-label="Link a pagina WhatsApp">
+                                            <i class="bi bi-whatsapp text-secondary"></i>
+                                        </a>
+                                    </li>
+                                    <li class="py-1">
+                                        <a rel="external noopener nofollow" href="#link" target="_blank" aria-label="Link a pagina TikTok">
+                                            <i class="bi bi-tiktok"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li> -->
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Social Icons -->
+        <!-- <div class="social-icons d-xl-block">
+            <div class="follow-label">
+                <span>Follow Me</span>
+            </div>
+            <ul class="list-unstyled ps-0">
+                <li class="py-1">
+                    <a rel="external noopener nofollow" href="#link" target="_blank"
+                        aria-label="Link a pagina Facebook">
+                        <i class="bi bi-facebook"></i>
+                    </a>
+                </li>
+                <li class="py-1">
+                    <a rel="external noopener nofollow" href="#link" target="_blank"
+                        aria-label="Link a pagina Linkedin">
+                        <i class="bi bi-linkedin"></i>
+                    </a>
+                </li>
+                <li class="py-1">
+                    <a rel="external noopener nofollow" href="#link" target="_blank" aria-label="Link a pagina Twitter">
+                        <i class="bi bi-twitter-x"></i>
+                    </a>
+                </li>
+                <li class="py-1">
+                    <a rel="external noopener nofollow" href="#link" target="_blank"
+                        aria-label="Link a pagina Instagram">
+                        <i class="bi bi-instagram"></i>
+                    </a>
+                </li>
+                <li class="py-1">
+                    <a rel="external noopener nofollow" href="#link" target="_blank"
+                        aria-label="Link a contatto WhatsApp">
+                        <i class="bi bi-whatsapp"></i>
+                    </a>
+                </li>
+                <li class="py-1">
+                    <a rel="external noopener nofollow" href="#link" target="_blank" aria-label="Link a pagina TikTok">
+                        <i class="bi bi-tiktok"></i>
+                    </a>
+                </li>
+            </ul>
+        </div> -->
+        <!-- End Social Icons -->
+
+    </header>
+
+    <!-- Hero Section -->
+    <section id="portfolio">
+        <div class="container px-4 py-md-5 mb-5">
+            <div class="section-container">
+                <h1 class="text-center text-bg-dark display-2 fw-bold lh-1">Portfolio</h1>
+                <p class="text-center text-secondary fs-5">Scopri i miei progetti </p>
+            </div>
+
+            <div class="row row-cols-1 row-cols-lg-3 g-4 pt-0 pt-md-5">
+
+                <div class="col">
+                    <a href="#" class="text-decoration-none text-reset"
+                        aria-label="Vai al sito del progetto xxx, apre in nuova scheda" target="_blank"
+                        rel="noopener noreferrer">
+                        <div class="card h-100">
+                            <div class="ratio ratio-16x9">
+                                <img src="../images/avi.png" class="card-img-top" alt="Screenshot del sito xxx">
+                            </div>
+                            <!-- Corpo della card -->
+                            <div class="card-body d-flex flex-column text-center">
+                                <h5 class="card-title mb-2">xxxx</h5>
+                                <p class="card-text mb-1">Brand identity e sviluppo web responsive</p>
+                                <div class="mt-auto mb-2">
+                                    <span class="badge text-bg-light me-1 shadow">HTML5</span>
+                                    <span class="badge text-bg-light me-1 shadow">CSS3</span>
+                                    <span class="badge text-bg-light me-1 shadow">Bootstrap</span>
+                                    <span class="badge text-bg-light shadow">JavaScript</span>
+                                </div>
+                                <div class="d-grid gap-2 d-md-flex justify-content-center">
+                                    <span class="d-flex align-items-center icon-link icon-link-hover">
+                                        Vai al sito
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="bi" viewBox="0 0 16 16"
+                                            aria-hidden="true">
+                                            <path
+                                                d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                                        </svg>
+                                        <span class="visually-hidden">(apre in nuova scheda)</span>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col">
+                    <a href="#" class="text-decoration-none text-reset"
+                        aria-label="Vai al sito del progetto xxxx, apre in nuova scheda" target="_blank"
+                        rel="noopener noreferrer">
+                        <div class="card h-100">
+                            <div class="ratio ratio-16x9">
+                                <img src="../images/avi.png" class="card-img-top" alt="Screenshot del sito xxxx">
+                            </div>
+                            <!-- Corpo della card -->
+                            <div class="card-body d-flex flex-column text-center">
+                                <h5 class="card-title mb-2">xxxx</h5>
+                                <p class="card-text mb-1">Brand identity e sviluppo web responsive</p>
+                                <div class="mt-auto mb-2">
+                                    <span class="badge text-bg-light me-1 shadow">WordPress</span>
+                                </div>
+                                <div class="d-grid gap-2 d-md-flex justify-content-center">
+                                    <span class="d-flex align-items-center icon-link icon-link-hover">
+                                        Vai al sito
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="bi" viewBox="0 0 16 16"
+                                            aria-hidden="true">
+                                            <path
+                                                d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                                        </svg>
+                                        <span class="visually-hidden">(apre in nuova scheda)</span>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col">
+                    <a href="#" class="text-decoration-none text-reset"
+                        aria-label="Vai al sito del progetto xxxx, apre in nuova scheda" target="_blank"
+                        rel="noopener noreferrer">
+                        <div class="card h-100">
+                            <div class="ratio ratio-16x9">
+                                <img src="../images/avi.png" class="card-img-top" alt="Screenshot del sito xxxx">
+                            </div>
+                            <!-- Corpo della card -->
+                            <div class="card-body d-flex flex-column text-center">
+                                <h5 class="card-title mb-2">xxxx</h5>
+                                <p class="card-text mb-1">Brand identity e sviluppo web responsive</p>
+                                <div class="mt-auto mb-2">
+                                    <span class="badge text-bg-light me-1 shadow">HTML5</span>
+                                    <span class="badge text-bg-light me-1 shadow">CSS3</span>
+                                    <span class="badge text-bg-light me-1 shadow">Bootstrap</span>
+                                    <span class="badge text-bg-light shadow">JavaScript</span>
+                                </div>
+                                <div class="d-grid gap-2 d-md-flex justify-content-center">
+                                    <span class="d-flex align-items-center icon-link icon-link-hover">
+                                        Vai al sito
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="bi" viewBox="0 0 16 16"
+                                            aria-hidden="true">
+                                            <path
+                                                d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                                        </svg>
+                                        <span class="visually-hidden">(apre in nuova scheda)</span>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col">
+                    <a href="#" class="text-decoration-none text-reset"
+                        aria-label="Vai al sito del progetto xxxx, apre in nuova scheda" target="_blank"
+                        rel="noopener noreferrer">
+                        <div class="card h-100">
+                            <div class="ratio ratio-16x9">
+                                <img src="../images/avi.png" class="card-img-top" alt="Screenshot del sito xxxx">
+                            </div>
+                            <!-- Corpo della card -->
+                            <div class="card-body d-flex flex-column text-center">
+                                <h5 class="card-title mb-2">xxxx</h5>
+                                <p class="card-text mb-1">Brand identity e sviluppo web responsive</p>
+                                <div class="mt-auto mb-2">
+                                    <span class="badge text-bg-light me-1 shadow">WordPress</span>
+                                </div>
+                                <div class="d-grid gap-2 d-md-flex justify-content-center">
+                                    <span class="d-flex align-items-center icon-link icon-link-hover">
+                                        Vai al sito
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="bi" viewBox="0 0 16 16"
+                                            aria-hidden="true">
+                                            <path
+                                                d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                                        </svg>
+                                        <span class="visually-hidden">(apre in nuova scheda)</span>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Contacts Section -->
+    <section id="contacts" style="background-color: #121212;">
+        <div class="container py-lg-5">
+            <div class="row justify-content-center">
+                <div class="col-lg-11">
+                    <div class="row no-gutters justify-content-between">
+                        <div class="col-lg-6 py-5 p-lg-0">
+                            <div class="w-100">
+                                <div class="section-container py-0">
+                                    <h2 class="display-5 fw-bold lh-1 section-title">
+                                        Pronto a dare vita alla tua idea?
+                                    </h2>
+                                </div>
+                                <div class="d-md-none text-center pb-5">
+                                    <p>
+                                        Hai un'idea che vuoi trasformare in realtà? Scrivimi e troviamo insieme la
+                                        soluzione digitale perfetta per te!
+                                    </p>
+                                </div>
+                                <div class="">
+                                    <form id="contactForm">
+                                        <div class="row g-2 mb-3">
+                                            <div class="col-md mb-2 mb-md-0">
+                                                <div class="form-floating">
+                                                    <input type="text"
+                                                        class="form-control text-bg-dark border-0 shadow-none rounded-0"
+                                                        id="nameForm" name="nameForm" placeholder="Nome completo"
+                                                        required />
+                                                    <label for="nameForm">Nome completo</label>
+                                                </div>
+                                            </div>
+                                            <div class="col-md">
+                                                <div class="form-floating">
+                                                    <input type="email"
+                                                        class="form-control text-bg-dark border-0 shadow-none rounded-0"
+                                                        id="emailForm" name="emailForm" placeholder="name@portfolio.com"
+                                                        required />
+                                                    <label for="emailForm">Email</label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="form-floating mb-3">
+                                            <input type="text"
+                                                class="form-control text-bg-dark border-0 shadow-none rounded-0"
+                                                id="subjectForm" name="subjectForm" placeholder="Tipo di richiesta"
+                                                required />
+                                            <label for="subjectForm">Tipo di richiesta</label>
+                                        </div>
+                                        <div class="form-floating mb-2">
+                                            <textarea class="form-control text-bg-dark border-0 shadow-none rounded-0"
+                                                placeholder="Scrivi un messaggio" id="messageForm" name="messageForm"
+                                                style="height: 150px; resize: none" required></textarea>
+                                            <label for="messageForm">Messaggio</label>
+                                        </div>
+                                        <div class="d-grid gap-2 d-flex justify-content-start">
+                                            <div class="form-check mb-3">
+                                                <input class="form-check-input" type="checkbox" value=""
+                                                    id="invalidCheck" required />
+                                                <label class="form-check-label" for="invalidCheck"
+                                                    style="color: #9f9f9f">
+                                                    Accetto la
+                                                    <a href="#" target="_blank">Politica sulla Privacy</a>
+                                                    e i
+                                                    <a href="#" target="_blank">Termini e Condizioni</a>.
+                                                </label>
+                                            </div>
+                                        </div>
+                                        <div
+                                            class="d-grid gap-2 d-flex justify-content-md-start justify-content-center mb-4">
+                                            <button type="submit" class="btn btn1 btn-lg px-4 me-md-2" href="#contacts"
+                                                id="send-mail">
+                                                Invia il messaggio
+                                            </button>
+                                        </div>
+                                        <div class="alert alert-danger d-none alert-dismissible" role="alert">
+                                            <i class="bi bi-exclamation-triangle-fill"></i>
+                                            <span class="response-message"></span>
+                                            <button type="button" class="btn-close" data-bs-dismiss="alert"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="alert alert-success d-none" role="alert">
+                                            <i class="bi bi-check-circle-fill"></i>
+                                            <span class="response-message"></span>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="w-100 py-md-5 px-md-5">
+                                <h4 class="mb-4 text-center">Informazioni di contatto</h4>
+                                <div class="mb-md-4 d-none d-md-block">
+                                    <p>
+                                        Hai un'idea che vuoi trasformare in realtà? Scrivimi e troviamo insieme la
+                                        soluzione digitale perfetta per te!
+                                    </p>
+                                </div>
+                                <address aria-label="Dati di contatto">
+
+                                    <div class="contact_box w-100 d-flex align-items-start">
+                                        <div class="contacts-icon d-flex align-items-center ">
+                                            <span class="bi bi-whatsapp"></span>
+                                        </div>
+                                        <div class="ps-4">
+                                            <p><span>WhatsApp:</span><a href="#" target="_blank" rel="noopener">
+                                                    Avvia chat su WhatsApp
+                                                </a></p>
+                                        </div>
+                                    </div>
+
+                                    <div class="contact_box w-100 d-flex align-items-start">
+                                        <div class="contacts-icon d-flex align-items-center">
+                                            <span class="bi bi-envelope-at"></span>
+                                        </div>
+                                        <div class="ps-4">
+                                            <p><span>E-Mail:</span> <a href="mailto:tuo@email.com">email@email.com</a>
+                                            </p>
+                                        </div>
+                                    </div>
+
+                                    <div class="contact_box w-100 d-flex align-items-start">
+                                        <div class="contacts-icon d-flex align-items-center ">
+                                            <span class="bi bi-telephone"></span>
+                                        </div>
+                                        <div class="ps-4">
+                                            <p><span>Telefono:</span> <a
+                                                    href="tel:+39-xxx-xxxx-xxx">+39-xxx-xxxx-xxx</a></p>
+                                        </div>
+                                    </div>
+
+                                    <div class="contact_box w-100 d-flex align-items-start">
+                                        <div class="contacts-icon d-flex align-items-center ">
+                                            <span class="bi bi-people" style="color: #121212;"></span>
+                                        </div>
+                                        <div class="ps-4">
+                                            <p class="mb-0"><span>Seguimi sui social</span></p>
+                                            <ul class="list-unstyled list-group-horizontal list-group ms-0">
+                                                <li class="py-1 pe-3">
+                                                    <a rel="external noopener nofollow" href="#link" target="_blank"
+                                                        aria-label="Link a pagina Facebook">
+                                                        <i class="bi bi-facebook text-secondary"></i>
+                                                    </a>
+                                                </li>
+                                                <li class="py-1 pe-3">
+                                                    <a rel="external noopener nofollow" href="#link" target="_blank"
+                                                        aria-label="Link a pagina Linkedin">
+                                                        <i class="bi bi-linkedin text-secondary"></i>
+                                                    </a>
+                                                </li>
+                                                <!-- <li class="py-1">
+                                                        <a rel="external noopener nofollow" href="#link" target="_blank"
+                                                            aria-label="Link a pagina Twitter">
+                                                            <i class="bi bi-twitter-x"></i>
+                                                        </a>
+                                                    </li> -->
+                                                <li class="py-1 pe-3">
+                                                    <a rel="external noopener nofollow" href="#link" target="_blank"
+                                                        aria-label="Link a pagina Instagram">
+                                                        <i class="bi bi-instagram text-secondary"></i>
+                                                    </a>
+                                                </li>
+                                                <!--  <li class="py-1">
+                                                        <a rel="external noopener nofollow" href="#link" target="_blank"
+                                                            aria-label="Link a pagina WhatsApp">
+                                                            <i class="bi bi-whatsapp text-secondary"></i>
+                                                        </a>
+                                                    </li> -->
+                                                <!-- <li class="py-1">
+                                                        <a rel="external noopener nofollow" href="#link" target="_blank"
+                                                            aria-label="Link a pagina TikTok">
+                                                            <i class="bi bi-tiktok"></i>
+                                                        </a>
+                                                    </li> -->
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </address>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer class="container-fluid" id="footer">
+        <div class="container">
+            <footer
+                class="d-flex flex-wrap py-4 text-secondary justify-content-center justify-content-md-between align-items-center">
+
+                <ul class="nav col-12 col-lg-6 justify-content-center justify-content-lg-start  mb-2 mb-lg-0">
+                    <li class="nav-item">&copy; <span id="anno"></span> xxx-xxxx-xxx</li>
+                    <li class="nav-item ms-2">Tutti i diritti riservati</li>
+                    <li class="nav-item ms-2">xxxxxxxxxxxx</li>
+                </ul>
+
+                <ul class="nav col-12 col-lg-6 justify-content-center justify-content-lg-end">
+                    <li class="nav-item"><a href="#" target="_blank" class="text-secondary">Privacy Policy</a></li>
+                    <li class="nav-item ms-3"><a href="#" target="_blank" class="text-secondary">Termini e
+                            Condizioni</a></li>
+                    <li class="nav-item ms-3"><a href="#" target="_blank" class="text-secondary">Cookie Policy</a>
+                    </li>
+                </ul>
+            </footer>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <!-- jQuery Bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+    <!-- Sticky Navbar -->
+    <script src=" https://cdnjs.cloudflare.com/ajax/libs/jquery.sticky/1.0.4/jquery.sticky.min.js"
+        integrity="sha512-QABeEm/oYtKZVyaO8mQQjePTPplrV8qoT7PrwHDJCBLqZl5UmuPi3APEcWwtTNOiH24psax69XPQtEo5dAkGcA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- Main js -->
+    <script src="../js/main.js"></script>
+    <script>$("#anno").text(new Date().getFullYear());</script>
+</body>
+
+</html>
